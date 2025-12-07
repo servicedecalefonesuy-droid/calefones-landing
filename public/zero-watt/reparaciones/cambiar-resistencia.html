@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar Resistencia - Calefón Zero watt | Guía Paso a Paso</title>
+    <meta name="description" content="Guía completa paso a paso para cambiar resistencia en calefones Zero watt. Herramientas, medidas de seguridad y procedimiento detallado.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://calefones-landing.pages.dev/zero-watt/reparaciones/cambiar-resistencia.html">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0066CC',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div>
+                    <a href="/zero-watt/" class="text-2xl font-bold text-primary hover:text-blue-700 transition">
+                        <i class="fas fa-fire mr-2"></i>Calefones Zero watt
+                    </a>
+                </div>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="/zero-watt/" class="text-gray-700 hover:text-primary transition">Inicio</a>
+                    <a href="/zero-watt/#diagnostico" class="text-gray-700 hover:text-primary transition">Diagnóstico</a>
+                    <a href="/zero-watt/#reparaciones" class="text-gray-700 hover:text-primary transition">Reparaciones</a>
+                    <a href="https://casadelcalefon.uy" target="_blank" class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+                        <i class="fas fa-shopping-cart mr-2"></i>Tienda
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Breadcrumb -->
+    <div class="bg-gray-100 py-3">
+        <div class="container mx-auto px-4">
+            <nav class="text-sm">
+                <a href="/" class="text-primary hover:underline">Inicio</a>
+                <span class="mx-2 text-gray-500">/</span>
+                <a href="/zero-watt/" class="text-primary hover:underline">Zero watt</a>
+                <span class="mx-2 text-gray-500">/</span>
+                <a href="/zero-watt/#reparaciones" class="text-primary hover:underline">Reparaciones</a>
+                <span class="mx-2 text-gray-500">/</span>
+                <span class="text-gray-700">Cambiar Resistencia</span>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12 max-w-4xl">
+        
+        <!-- Introducción -->
+<div class="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-lg mb-8">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4"><i class="fas fa-bolt text-blue-600 mr-3"></i>Cambiar Resistencia - Zero watt</h2>
+    <p class="text-gray-700 mb-3">La resistencia quemada es un problema común en los calefones Zero watt, especialmente después de varios años de uso. Esto se debe al sarro acumulado, variaciones de voltaje o simplemente al desgaste natural.  Reemplazar la resistencia a tiempo evita daños mayores en el tanque y asegura que tengas agua caliente cuando la necesites. Es importante actuar rápido para no quedar sin agua caliente, ¡sobre todo en invierno!</p>
+    <div class="flex gap-4 mt-4">
+        <span class="bg-white px-4 py-2 rounded-full text-sm"><i class="far fa-clock mr-2"></i><strong>Tiempo:</strong> 30-45 min</span>
+        <span class="bg-white px-4 py-2 rounded-full text-sm"><i class="fas fa-signal mr-2"></i><strong>Dificultad:</strong> Medio</span>
+        <span class="bg-white px-4 py-2 rounded-full text-sm"><i class="fas fa-dollar-sign mr-2"></i><strong>Costo:</strong> Moderado</span>
+    </div>
+</div>
+
+<!-- Herramientas Necesarias -->
+<div class="bg-white p-6 rounded-lg shadow-md mb-8">
+    <h3 class="text-xl font-bold text-gray-800 mb-4"><i class="fas fa-toolbox text-orange-600 mr-2"></i>Herramientas y Materiales</h3>
+    <div class="grid md:grid-cols-2 gap-4">
+        <ul class="space-y-2">
+            <li><i class="fas fa-check text-green-600 mr-2"></i>Llave ajustable (pico de loro) o llave francesa</li>
+            <li><i class="fas fa-check text-green-600 mr-2"></i>Destornillador Phillips (estrella) y plano</li>
+            <li><i class="fas fa-check text-green-600 mr-2"></i>Pinza de punta o alicate</li>
+            <li><i class="fas fa-check text-green-600 mr-2"></i>Tester o multímetro (opcional, para verificar la resistencia nueva)</li>
+        </ul>
+        <ul class="space-y-2">
+            <li><i class="fas fa-check text-green-600 mr-2"></i>Resistencia de repuesto para calefón Zero watt (¡verificá el voltaje y la potencia!)</li>
+            <li><i class="fas fa-check text-green-600 mr-2"></i>Junta o goma de sellado nueva (fundamental para evitar fugas)</li>
+            <li><i class="fas fa-check text-green-600 mr-2"></i>Equipo de seguridad: Guantes de goma y gafas de protección</li>
+            <li><i class="fas fa-check text-green-600 mr-2"></i>Cinta de teflón (opcional, para asegurar el sellado)</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Medidas de Seguridad -->
+<div class="bg-red-50 border-l-4 border-red-500 p-6 mb-8">
+    <h3 class="text-xl font-bold text-red-800 mb-3"><i class="fas fa-exclamation-triangle mr-2"></i>Medidas de Seguridad</h3>
+    <ul class="space-y-2 text-gray-700">
+        <li><i class="fas fa-bolt text-red-600 mr-2"></i><strong>Cortar corriente eléctrica:</strong> ¡Obligatorio! Desconectar el disyuntor en el tablero principal antes de tocar nada.</li>
+        <li><i class="fas fa-tint text-blue-600 mr-2"></i><strong>Cerrar llave de agua:</strong> Cerrá la llave de paso que alimenta el calefón para evitar un desastre.</li>
+        <li><i class="fas fa-fire text-orange-600 mr-2"></i><strong>Esperar enfriamiento:</strong> ¡Importantísimo! El agua dentro del calefón puede estar hirviendo. Esperá al menos 30 minutos a que se enfríe antes de empezar.</li>
+        <li><i class="fas fa-hard-hat text-yellow-600 mr-2"></i><strong>Equipo de protección:</strong> Usá guantes de goma para protegerte de la electricidad residual y gafas para evitar que te salpique agua sucia o sarro.</li>
+    </ul>
+</div>
+
+<!-- Procedimiento Paso a Paso -->
+<div class="bg-white p-6 rounded-lg shadow-md mb-8">
+    <h3 class="text-xl font-bold text-gray-800 mb-6"><i class="fas fa-list-ol text-blue-600 mr-2"></i>Procedimiento Paso a Paso</h3>
+    
+    <div class="space-y-6">
+        <!-- Paso 1 -->
+        <div class="border-l-4 border-blue-500 pl-6">
+            <h4 class="text-lg font-bold text-gray-800 mb-2"><span class="bg-blue-600 text-white px-3 py-1 rounded-full mr-2">1</span>Vaciar el Calefón</h4>
+            <p class="text-gray-700 mb-2">Después de asegurarte de que el agua esté fría y la corriente cortada, abrí la canilla de agua caliente más cercana para permitir que entre aire al tanque.  Luego, desenroscá la manguera de desagote del calefón (generalmente en la parte inferior) y dirigila a un balde o desagüe. Abrí la llave de paso del calefón (después de haberla cerrado antes, obvio) para que el agua comience a salir.  Dejalo vaciar completamente.  Esto puede tardar un poco, ¡paciencia!</p>
+            <div class="bg-blue-50 p-3 rounded mt-2">
+                <p class="text-sm text-blue-800"><i class="fas fa-lightbulb mr-2"></i><strong>Consejo:</strong> Algunos modelos Zero watt tienen un tapón de drenaje en lugar de una manguera. Si es así, usá una llave para desenroscarlo con cuidado.</p>
+            </div>
+        </div>
+        
+        <!-- Paso 2 -->
+        <div class="border-l-4 border-blue-500 pl-6">
+            <h4 class="text-lg font-bold text-gray-800 mb-2"><span class="bg-blue-600 text-white px-3 py-1 rounded-full mr-2">2</span>Desconectar los Cables Eléctricos</h4>
+            <p class="text-gray-700">Con el calefón vacío, localizá la tapa de acceso a la resistencia (generalmente en la parte inferior o lateral).  Desatornillala y retirala con cuidado. Vas a ver los cables conectados a la resistencia.  Con una pinza de punta o alicate, desconectá los cables uno por uno.  ¡Importante!  Tomá una foto o hacé un dibujo de cómo estaban conectados antes de desconectarlos. Esto te va a ahorrar dolores de cabeza al volver a conectar la resistencia nueva.</p>
+        </div>
+        
+        <!-- Paso 3 -->
+        <div class="border-l-4 border-blue-500 pl-6">
+            <h4 class="text-lg font-bold text-gray-800 mb-2"><span class="bg-blue-600 text-white px-3 py-1 rounded-full mr-2">3</span>Retirar la Resistencia Quemada</h4>
+            <p class="text-gray-700">Ahora viene la parte más delicada.  Con la llave ajustable o llave francesa, aflojá la tuerca que sujeta la resistencia al tanque.  Generalmente, las resistencias de los calefones Zero watt tienen una rosca estándar.  Aflojá la tuerca con cuidado, girándola en sentido antihorario. Una vez que esté floja, terminá de desenroscarla con la mano y retirá la resistencia del tanque.  Es probable que salga con algo de sarro, ¡así que tené cuidado!</p>
+        </div>
+        
+        <!-- Paso 4 -->
+        <div class="border-l-4 border-blue-500 pl-6">
+            <h4 class="text-lg font-bold text-gray-800 mb-2"><span class="bg-blue-600 text-white px-3 py-1 rounded
+        
+        <!-- Otras Reparaciones -->
+        <div class="mt-12 bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-bold text-gray-800 mb-4">Otras Reparaciones de Zero watt</h3>
+            <div class="grid md:grid-cols-2 gap-4">
+                
+                <a href="/zero-watt/reparaciones/reemplazar-termostato.html" class="block p-4 border border-gray-200 rounded-lg hover:border-green-500 hover:shadow-md transition">
+                    <i class="fas fa-thermometer-half text-green-600 mr-2"></i><span class="font-semibold">Reemplazar Termostato</span>
+                </a>
+                
+                <a href="/zero-watt/reparaciones/cambiar-anodo.html" class="block p-4 border border-gray-200 rounded-lg hover:border-purple-500 hover:shadow-md transition">
+                    <i class="fas fa-shield-alt text-purple-600 mr-2"></i><span class="font-semibold">Cambiar Ánodo de Magnesio</span>
+                </a>
+                
+                <a href="/zero-watt/reparaciones/reparar-fuga-agua.html" class="block p-4 border border-gray-200 rounded-lg hover:border-cyan-500 hover:shadow-md transition">
+                    <i class="fas fa-tint text-cyan-600 mr-2"></i><span class="font-semibold">Reparar Fuga de Agua</span>
+                </a>
+                
+                <a href="/zero-watt/reparaciones/diagnostico-no-enciende.html" class="block p-4 border border-gray-200 rounded-lg hover:border-red-500 hover:shadow-md transition">
+                    <i class="fas fa-power-off text-red-600 mr-2"></i><span class="font-semibold">Diagnóstico: No Enciende</span>
+                </a>
+                
+            </div>
+        </div>
+        
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-2"><i class="fas fa-phone mr-2"></i>Servicio Técnico Especializado en Uruguay</p>
+            <p class="text-gray-400 text-sm">Guías de reparación para calefones Zero watt - © 2025</p>
+            <div class="mt-4">
+                <a href="https://casadelcalefon.uy" target="_blank" class="text-primary hover:text-blue-400 transition">
+                    <i class="fas fa-store mr-2"></i>Visitá Nuestra Tienda de Repuestos
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

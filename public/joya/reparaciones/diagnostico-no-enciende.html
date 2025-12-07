@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico: No Enciende - Calefón Joya | Guía Paso a Paso</title>
+    <meta name="description" content="Guía completa paso a paso para diagnóstico: no enciende en calefones Joya. Herramientas, medidas de seguridad y procedimiento detallado.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://calefones-landing.pages.dev/joya/reparaciones/diagnostico-no-enciende.html">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0066CC',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div>
+                    <a href="/joya/" class="text-2xl font-bold text-primary hover:text-blue-700 transition">
+                        <i class="fas fa-fire mr-2"></i>Calefones Joya
+                    </a>
+                </div>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="/joya/" class="text-gray-700 hover:text-primary transition">Inicio</a>
+                    <a href="/joya/#diagnostico" class="text-gray-700 hover:text-primary transition">Diagnóstico</a>
+                    <a href="/joya/#reparaciones" class="text-gray-700 hover:text-primary transition">Reparaciones</a>
+                    <a href="https://casadelcalefon.uy" target="_blank" class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+                        <i class="fas fa-shopping-cart mr-2"></i>Tienda
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Breadcrumb -->
+    <div class="bg-gray-100 py-3">
+        <div class="container mx-auto px-4">
+            <nav class="text-sm">
+                <a href="/" class="text-primary hover:underline">Inicio</a>
+                <span class="mx-2 text-gray-500">/</span>
+                <a href="/joya/" class="text-primary hover:underline">Joya</a>
+                <span class="mx-2 text-gray-500">/</span>
+                <a href="/joya/#reparaciones" class="text-primary hover:underline">Reparaciones</a>
+                <span class="mx-2 text-gray-500">/</span>
+                <span class="text-gray-700">Diagnóstico: No Enciende</span>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12 max-w-4xl">
+        
+        <!-- Introducción -->
+<div class="bg-gradient-to-r from-red-50 to-red-100 p-6 rounded-lg mb-8">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4"><i class="fas fa-power-off text-red-600 mr-3"></i>Diagnóstico: No Enciende - Joya</h2>
+    <p class="text-gray-700 mb-3">Un calefón Joya que no enciende es un problema común, especialmente después de un corte de luz o un período de inactividad.  Esta guía te ayudará a diagnosticar y solucionar el problema paso a paso. Es importante solucionar esto rápidamente para no quedarte sin agua caliente, especialmente en los meses fríos.  Recordá que la seguridad es primordial, ¡cortá la corriente antes de empezar!</p>
+    <div class="flex gap-4 mt-4">
+        <span class="bg-white px-4 py-2 rounded-full text-sm"><i class="far fa-clock mr-2"></i><strong>Tiempo:</strong> 15-30 min</span>
+        <span class="bg-white px-4 py-2 rounded-full text-sm"><i class="fas fa-signal mr-2"></i><strong>Dificultad:</strong> Medio</span>
+        <span class="bg-white px-4 py-2 rounded-full text-sm"><i class="fas fa-dollar-sign mr-2"></i><strong>Costo:</strong> Moderado</span>
+    </div>
+</div>
+
+<!-- Herramientas Necesarias -->
+<div class="bg-white p-6 rounded-lg shadow-md mb-8">
+    <h3 class="text-xl font-bold text-gray-800 mb-4"><i class="fas fa-toolbox text-orange-600 mr-2"></i>Herramientas y Materiales</h3>
+    <div class="grid md:grid-cols-2 gap-4">
+        <ul class="space-y-2">
+            <li><i class="fas fa-check text-green-600 mr-2"></i>Tester o Multímetro (para probar continuidad y voltaje)</li>
+            <li><i class="fas fa-check text-green-600 mr-2"></i>Destornillador (plano y Phillips)</li>
+            <li><i class="fas fa-check text-green-600 mr-2"></i>Pinza Pelacables</li>
+        </ul>
+        <ul class="space-y-2">
+            <li><i class="fas fa-check text-green-600 mr-2"></i>Cinta Aisladora</li>
+            <li><i class="fas fa-check text-green-600 mr-2"></i>Repuesto de Resistencia (si es necesario)</li>
+            <li><i class="fas fa-check text-green-600 mr-2"></i>Equipo de seguridad (guantes de goma y gafas de protección)</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Medidas de Seguridad -->
+<div class="bg-red-50 border-l-4 border-red-500 p-6 mb-8">
+    <h3 class="text-xl font-bold text-red-800 mb-3"><i class="fas fa-exclamation-triangle mr-2"></i>Medidas de Seguridad</h3>
+    <ul class="space-y-2 text-gray-700">
+        <li><i class="fas fa-bolt text-red-600 mr-2"></i><strong>Cortar corriente eléctrica:</strong> Desconectar la llave térmica del calefón en el tablero principal. ¡Fundamental!</li>
+        <li><i class="fas fa-tint text-blue-600 mr-2"></i><strong>Cerrar llave de agua:</strong> Cerrá la llave de paso que alimenta el calefón para evitar que se vacíe al manipularlo.</li>
+        <li><i class="fas fa-fire text-orange-600 mr-2"></i><strong>Esperar enfriamiento:</strong> Si el calefón estuvo funcionando, esperá al menos 30 minutos para que el agua se enfríe y evitar quemaduras.  El agua puede estar cerca de 80°C.</li>
+        <li><i class="fas fa-hard-hat text-yellow-600 mr-2"></i><strong>Equipo de protección:</strong> Usá guantes de goma para aislarte de la electricidad y gafas para proteger tus ojos.</li>
+    </ul>
+</div>
+
+<!-- Procedimiento Paso a Paso -->
+<div class="bg-white p-6 rounded-lg shadow-md mb-8">
+    <h3 class="text-xl font-bold text-gray-800 mb-6"><i class="fas fa-list-ol text-red-600 mr-2"></i>Procedimiento Paso a Paso</h3>
+    
+    <div class="space-y-6">
+        <!-- Paso 1 -->
+        <div class="border-l-4 border-red-500 pl-6">
+            <h4 class="text-lg font-bold text-gray-800 mb-2"><span class="bg-red-600 text-white px-3 py-1 rounded-full mr-2">1</span>Verificar el Suministro Eléctrico</h4>
+            <p class="text-gray-700 mb-2">Asegurate de que haya corriente en el toma donde está enchufado el calefón. Podés usar un tester o enchufar otro aparato para verificar.  También, revisá la llave térmica del calefón en el tablero principal; puede haberse disparado.  Si la llave térmica salta inmediatamente al intentar subirla, podría indicar un cortocircuito. ¡No insistas y pasá a revisar el calefón!</p>
+            <div class="bg-blue-50 p-3 rounded mt-2">
+                <p class="text-sm text-blue-800"><i class="fas fa-lightbulb mr-2"></i><strong>Consejo:</strong>  Los calefones Joya suelen tener un cable con enchufe reforzado.  Asegurate de que el enchufe esté en buen estado y bien conectado.</p>
+            </div>
+        </div>
+        
+        <!-- Paso 2 -->
+        <div class="border-l-4 border-red-500 pl-6">
+            <h4 class="text-lg font-bold text-gray-800 mb-2"><span class="bg-red-600 text-white px-3 py-1 rounded-full mr-2">2</span>Revisar el Termostato de Seguridad</h4>
+            <p class="text-gray-700">Los calefones Joya, al igual que la mayoría, tienen un termostato de seguridad que corta la corriente si la temperatura del agua es demasiado alta.  Este termostato suele tener un botón de rearme.  Para acceder a él, generalmente tenés que quitar la tapa inferior del calefón (después de cortar la corriente, ¡obviamente!).  Buscá un pequeño botón rojo o negro y presionálo.  A veces, un "clic" te indicará que se ha rearmado.  Volvé a probar si enciende.</p>
+        </div>
+        
+        <!-- Paso 3 -->
+        <div class="border-l-4 border-red-500 pl-6">
+            <h4 class="text-lg font-bold text-gray-800 mb-2"><span class="bg-red-600 text-white px-3 py-1 rounded-full mr-2">3</span>Inspeccionar el Cableado Interno</h4>
+            <p class="text-gray-700">Con la tapa inferior aún quitada, revisá visualmente el cableado interno. Buscá cables sueltos, quemados o sulfatados. Prestá especial atención a las conexiones en el termostato, la resistencia y el interruptor.  Si encontrás alguna conexión floja, ajústala con un destornillador.  Si ves cables quemados, reemplazalos por cables de la misma sección (grosor).</p>
+        </div>
+        
+        <!-- Paso 4 -->
+        <div class="border-l-4 border-red-500 pl-6">
+            <h4 class="text-lg font-bold text-gray-800 mb-2"><span class="bg-red-600 text-white px-3 py-1 rounded-full mr-2">4</span>Probar la Continuidad de la Resistencia</h4>
+            <p class="text-gray-700">La resistencia es la encargada de calentar el agua.  Para verificar si está funcionando, usá un tester en la función de continuidad (generalmente simbolizada con un icono de un diodo o una señal de audio).  Desconectá los cables de la resistencia y colocá las puntas del tester en los terminales de la resistencia.  Si el tester indica continuidad (emite un sonido o muestra un valor cercano a cero), la resistencia está bien.  Si no hay continuidad, la resistencia está quemada
+        
+        <!-- Otras Reparaciones -->
+        <div class="mt-12 bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-bold text-gray-800 mb-4">Otras Reparaciones de Joya</h3>
+            <div class="grid md:grid-cols-2 gap-4">
+                
+                <a href="/joya/reparaciones/cambiar-resistencia.html" class="block p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition">
+                    <i class="fas fa-bolt text-blue-600 mr-2"></i><span class="font-semibold">Cambiar Resistencia</span>
+                </a>
+                
+                <a href="/joya/reparaciones/reemplazar-termostato.html" class="block p-4 border border-gray-200 rounded-lg hover:border-green-500 hover:shadow-md transition">
+                    <i class="fas fa-thermometer-half text-green-600 mr-2"></i><span class="font-semibold">Reemplazar Termostato</span>
+                </a>
+                
+                <a href="/joya/reparaciones/cambiar-anodo.html" class="block p-4 border border-gray-200 rounded-lg hover:border-purple-500 hover:shadow-md transition">
+                    <i class="fas fa-shield-alt text-purple-600 mr-2"></i><span class="font-semibold">Cambiar Ánodo de Magnesio</span>
+                </a>
+                
+                <a href="/joya/reparaciones/reparar-fuga-agua.html" class="block p-4 border border-gray-200 rounded-lg hover:border-cyan-500 hover:shadow-md transition">
+                    <i class="fas fa-tint text-cyan-600 mr-2"></i><span class="font-semibold">Reparar Fuga de Agua</span>
+                </a>
+                
+            </div>
+        </div>
+        
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-2"><i class="fas fa-phone mr-2"></i>Servicio Técnico Especializado en Uruguay</p>
+            <p class="text-gray-400 text-sm">Guías de reparación para calefones Joya - © 2025</p>
+            <div class="mt-4">
+                <a href="https://casadelcalefon.uy" target="_blank" class="text-primary hover:text-blue-400 transition">
+                    <i class="fas fa-store mr-2"></i>Visitá Nuestra Tienda de Repuestos
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

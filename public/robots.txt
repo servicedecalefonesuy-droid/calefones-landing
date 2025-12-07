@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://calefones-landing.pages.dev/sitemap.xml
+
+# Disallow admin/private areas (if any in the future)
+# Disallow: /admin/
+# Disallow: /private/
