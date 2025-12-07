@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html lang='es'>
+<head>
+<meta charset='utf-8'>
+<title>Reparación de Calefones Smartlife</title>
+<meta name='description' content='Diagnóstico y reemplazo de termostatos, resistencias y válvulas en calefones Smartlife.'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='/styles.css'>
+</head>
+<body>
+<header><h1>Calefones Smartlife</h1><p>Detecta, reemplaza y diagnostica rápido.</p></header>
+<main>
+<section id='modelos'>
+    <h2>Selecciona tu Modelo</h2>
+    <p>Para instrucciones más precisas, elige tu modelo de Smartlife:</p>
+    <div id="model-list">
+        <!-- Los modelos se inyectarán aquí durante la construcción -->
+        <ul class='model-list'><li><a href='./modelos/estandar-electrico.html'><strong>Línea Estándar / Clásica</strong></a>: Termotanque eléctrico convencional de Smartlife, disponible en 30, 60 y 80 litros.</li></ul>
+    </div>
+    <p><small>¿No ves tu modelo? <a href="#diagnostico">Usa la guía general abajo</a>.</small></p>
+</section>
+
+<section id='diagnostico'>
+<h2>Diagnóstico de Fallas Comunes</h2>
+<p>Identifica el problema de tu calefón Smartlife para encontrar la solución:</p>
+<div class="grid-diagnostico">
+    <article class="card">
+        <h3><a href="./fallas/no-enciende.html">El calefón no enciende</a></h3>
+        <p>Si no hay luz piloto ni calienta el agua. Posibles fallas eléctricas o de seguridad.</p>
+    </article>
+    <article class="card">
+        <h3><a href="./fallas/no-calienta.html">No calienta el agua</a></h3>
+        <p>El equipo enciende pero el agua sale fría. Problemas de resistencia o sarro.</p>
+    </article>
+    <article class="card">
+        <h3><a href="./fallas/pierde-agua.html">Pierde agua</a></h3>
+        <p>Goteos por abajo o por la válvula de seguridad. Pinchaduras o exceso de presión.</p>
+    </article>
+</div>
+</section>
+
+<section id='reparaciones'>
+<h2>Guías de Reparación Paso a Paso</h2>
+<p>Tutoriales detallados para realizar el mantenimiento tú mismo:</p>
+<ul>
+    <li><a href="./reparaciones/cambiar-resistencia.html">Cómo cambiar la resistencia</a></li>
+    <li><a href="./reparaciones/cambiar-termostato.html">Cómo cambiar el termostato</a></li>
+    <li><a href="./reparaciones/cambiar-valvula.html">Reemplazo de válvula de seguridad</a></li>
+    <li><a href="./reparaciones/mantenimiento-anodo.html">Cambio de ánodo de magnesio</a></li>
+</ul>
+</section>
+<section id='cta'>
+<a id='cta-contacto' class='button' href='/contacto.html'>Agendar revisión</a>
+</section>
+</main>
+<footer><small> Reparación Calefones Smartlife</small></footer>
+<script>
+document.getElementById('cta-contacto')?.addEventListener('click',()=>{console.log('cta_contacto')})
+</script>
+</body>
+</html>

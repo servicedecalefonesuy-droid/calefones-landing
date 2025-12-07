@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang='es'>
+<head>
+<meta charset='utf-8'>
+<title>Reparación Calefón {{brand}} {{modelName}} - Guía Específica</title>
+<meta name='description' content='Guía detallada para el calefón {{brand}} modelo {{modelName}}. Ubicación de termostato, tipo de resistencia y pasos para reparación.'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='/styles.css'>
+</head>
+<body>
+<header>
+    <nav><a href="../../index.html">Inicio</a> > <a href="../index.html">{{brand}}</a> > {{modelName}}</nav>
+    <h1>Guía Técnica: {{brand}} {{modelName}}</h1>
+    <p>{{modelDesc}}</p>
+</header>
+<main>
+    <article>
+        <section class="specs-card">
+            <h2>Especificaciones Técnicas</h2>
+            <dl class="specs-list">
+                <dt>Tipo de Resistencia</dt>
+                <dd>{{specResistencia}}</dd>
+                
+                <dt>Tipo de Termostato</dt>
+                <dd>{{specTermostato}}</dd>
+                
+                <dt>Ubicación del Ánodo</dt>
+                <dd>{{specAnodo}}</dd>
+                
+                <dt>Herramientas Sugeridas</dt>
+                <dd>{{specHerramientas}}</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Ubicación de Componentes</h2>
+            <div class="diagram-placeholder">
+                [Esquema Visual: Termostato {{specTermostato}} - Resistencia {{specResistencia}}]
+            </div>
+            <p>En el modelo <strong>{{modelName}}</strong>, el acceso a los componentes eléctricos se encuentra en la parte inferior. Debes retirar la tapa plástica (generalmente sujeta con tornillos o a presión).</p>
+        </section>
+
+        <section class="specs-card">
+            <h2>Tabla de Códigos de Error y Soluciones</h2>
+            <p>Si tu equipo presenta fallas, consulta esta tabla rápida:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Síntoma / Código</th>
+                        <th>Posible Causa</th>
+                        <th>Solución Sugerida</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{errorTableRows}}
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Plan de Mantenimiento Preventivo</h2>
+            <ul>
+                <li><strong>Cambio de Ánodo:</strong> {{maintAnodo}}</li>
+                <li><strong>Limpieza de Sarro:</strong> {{maintLimpieza}}</li>
+                <li><strong>Revisión de Válvula:</strong> {{maintValvula}}</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Video Tutorial Relacionado</h2>
+            <p>Busca este tutorial en YouTube para ver el proceso visualmente:</p>
+            <div style="background:#000; color:#fff; padding:20px; text-align:center; border-radius:8px;">
+                <a href="https://www.youtube.com/results?search_query={{videoKeywords}}" target="_blank" style="color:#fff; text-decoration:none; font-size:1.2em;">
+                    ▶ Ver videos sobre: "{{videoKeywords}}"
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Guías de Reparación para este modelo</h2>
+            <div class="grid-diagnostico">
+                <article class="card">
+                    <h3>Cambiar Resistencia</h3>
+                    <p>Este modelo usa resistencia <strong>{{specResistencia}}</strong>.</p>
+                    <a class="button" href="../reparaciones/cambiar-resistencia.html">Ver Guía Paso a Paso</a>
+                </article>
+                <article class="card">
+                    <h3>Cambiar Termostato</h3>
+                    <p>Este modelo usa termostato <strong>{{specTermostato}}</strong>.</p>
+                    <a class="button" href="../reparaciones/cambiar-termostato.html">Ver Guía Paso a Paso</a>
+                </article>
+            </div>
+        </section>
+    </article>
+</main>
+<footer><small>Guía específica para {{brand}} {{modelName}} - <a href="../index.html">Volver a {{brand}}</a></small></footer>
+</body>
+</html>
