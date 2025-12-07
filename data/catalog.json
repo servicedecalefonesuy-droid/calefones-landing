@@ -1,1841 +1,254 @@
 [
-    {
-        "brand": "Bronx",
-        "models": [
-            {
-                "id": "cobre-30-60",
-                "name": "Línea Cobre (30L - 60L)",
-                "description": "Termotanque clásico con tanque de cobre.",
-                "specs": {
-                    "resistencia": "Tipo Brida (4 tornillos)",
-                    "termostato": "De contacto (apoyado en base)",
-                    "anodo": "Superior (tapón aparte)",
-                    "herramientas": [
-                        "Llave 13mm",
-                        "Destornillador plano"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Bronx Línea Cobre (30L - 60L)"
-            },
-            {
-                "id": "titanium-40-80",
-                "name": "Línea Titanium / Esmaltado",
-                "description": "Modelo moderno con tanque vitrificado.",
-                "specs": {
-                    "resistencia": "A Rosca (1 1/4 pulgada)",
-                    "termostato": "De Varilla (enchufable)",
-                    "anodo": "Integrado en la resistencia (barra de magnesio)",
-                    "herramientas": [
-                        "Llave de tubo 1 1/4",
-                        "Destornillador Phillips"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Bronx Línea Titanium / Esmaltado"
-            }
-        ]
-    },
-    {
-        "brand": "James",
-        "models": [
-            {
-                "id": "cilindrico-acero",
-                "name": "Cilíndrico Acero",
-                "description": "El modelo más común de plaza.",
-                "specs": {
-                    "resistencia": "A Rosca (1 1/4 pulgada)",
-                    "termostato": "De Varilla",
-                    "anodo": "Junto a la resistencia",
-                    "herramientas": [
-                        "Llave de tubo 1 1/4"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon James Cilíndrico Acero"
-            }
-        ]
-    },
-    {
-        "brand": "Ariston",
-        "models": [
-            {
-                "id": "pro-eco",
-                "name": "Pro Eco / Velis",
-                "description": "Modelos electrónicos inteligentes.",
-                "specs": {
-                    "resistencia": "Blindada (doble)",
-                    "termostato": "Electrónico (NTC)",
-                    "anodo": "Magnesio grande",
-                    "herramientas": [
-                        "Multímetro",
-                        "Destornillador Torx"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Ariston Pro Eco / Velis"
-            }
-        ]
-    },
-    {
-        "brand": "Atlantic",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Atlantic, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Atlantic Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Beusa",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Beusa, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Beusa Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Bosch",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Bosch, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Bosch Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Brilliant",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Brilliant, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Brilliant Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Collerati",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Collerati, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Collerati Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Cyprium",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Cyprium, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Cyprium Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Delne",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Delne, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Delne Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Dikler",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Dikler, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Dikler Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Eldom",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Eldom, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Eldom Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Enxuta",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Enxuta, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Enxuta Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Fagor",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Fagor, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Fagor Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Ganim",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Ganim, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Ganim Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Geloso",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Geloso, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Geloso Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Hyundai",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Hyundai, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Hyundai Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Ideal",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Ideal, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Ideal Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Ima",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Ima, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Ima Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Joya",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Joya, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Joya Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Kroser",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Kroser, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Kroser Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Midea",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Midea, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Midea Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Orion",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Orion, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Orion Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Pacific",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Pacific, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Pacific Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Panavox",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Panavox, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Panavox Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Peabody",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Peabody, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Peabody Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Punktal",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Punktal, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Punktal Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Queen",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Queen, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Queen Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Rotel",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Rotel, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Rotel Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Sevan",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Sevan, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Sevan Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Sirium",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Sirium, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Sirium Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Smartlife",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Smartlife, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Smartlife Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Steigleder",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Steigleder, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Steigleder Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Telefunken",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Telefunken, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Telefunken Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Tem",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Tem, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Tem Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Thermor",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Thermor, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Thermor Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Thompson",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Thompson, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Thompson Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Ufesa",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Ufesa, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Ufesa Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Warners",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Warners, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Warners Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Wnr",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Wnr, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Wnr Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Xion",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Xion, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Xion Línea Estándar / Clásica"
-            }
-        ]
-    },
-    {
-        "brand": "Zero watt",
-        "models": [
-            {
-                "id": "estandar-electrico",
-                "name": "Línea Estándar / Clásica",
-                "description": "Termotanque eléctrico convencional de Zero watt, disponible en 30, 60 y 80 litros.",
-                "specs": {
-                    "resistencia": "Blindada (Tipo Rosca 1 1/4\" o Brida según año)",
-                    "termostato": "De Varilla (Tipo Italiano)",
-                    "anodo": "Barra de Magnesio (Rosca M6/M8)",
-                    "herramientas": [
-                        "Llave de tubo",
-                        "Destornillador",
-                        "Multímetro"
-                    ]
-                },
-                "error_codes": [
-                    {
-                        "code": "Luz Apagada",
-                        "desc": "Falta de energía o termostato cortado",
-                        "sol": "Revisar enchufe y botón de reset"
-                    },
-                    {
-                        "code": "Goteo Inferior",
-                        "desc": "Pinchadura o brida floja",
-                        "sol": "Cambiar junta o ánodo"
-                    },
-                    {
-                        "code": "Agua Tibia",
-                        "desc": "Resistencia con sarro o falla parcial",
-                        "sol": "Limpiar o cambiar resistencia"
-                    }
-                ],
-                "maintenance": {
-                    "anodo": "Cada 12-18 meses",
-                    "limpieza": "Cada 2 años",
-                    "valvula": "Verificar cada 6 meses"
-                },
-                "video_keywords": "reparar calefon Zero watt Línea Estándar / Clásica"
-            }
-        ]
-    }
+  {
+    "brand": "Ariston",
+    "models": [
+      {
+        "id": "pro-80",
+        "name": "PRO 80",
+        "description": "Modelo de 80 litros con resistencia de brida",
+        "specs": {
+          "resistencia": "Brida 6 tornillos - 1500W",
+          "termostato": "Varilla ajustable",
+          "anodo": "Rosca 1/2 pulgada",
+          "herramientas": ["Llave Allen", "Destornillador", "Multímetro"]
+        },
+        "error_codes": [
+          {"code": "E1", "desc": "Sobrecalentamiento", "sol": "Verificar termostato de seguridad"},
+          {"code": "E2", "desc": "Sensor de temperatura", "sol": "Reemplazar sensor NTC"}
+        ],
+        "maintenance": {
+          "anodo": "Anualmente",
+          "limpieza": "Cada 2 años",
+          "valvula": "Semestralmente"
+        },
+        "video_keywords": "reparacion calefon ariston pro 80"
+      }
+    ]
+  },
+  {
+    "brand": "James",
+    "models": [
+      {
+        "id": "cilindrico-acero",
+        "name": "Cilíndrico Acero",
+        "description": "El modelo más común de plaza",
+        "specs": {
+          "resistencia": "Rosca 1 1/4 - 1500W",
+          "termostato": "Contacto universal",
+          "anodo": "Rosca 1/2 pulgada",
+          "herramientas": ["Llave de caño", "Multímetro", "Teflón"]
+        },
+        "error_codes": [
+          {"code": "N/A", "desc": "Sin display electrónico", "sol": "Diagnóstico manual con multímetro"}
+        ],
+        "maintenance": {
+          "anodo": "Cada 12-18 meses",
+          "limpieza": "Cada 2 años",
+          "valvula": "Anualmente"
+        },
+        "video_keywords": "reparacion calefon james cilindrico"
+      }
+    ]
+  },
+  {
+    "brand": "Peabody",
+    "models": [
+      {
+        "id": "pe-sb50",
+        "name": "PE-SB50",
+        "description": "50 litros con termostato digital",
+        "specs": {
+          "resistencia": "Brida ovalada - 1500W",
+          "termostato": "Digital con display LED",
+          "anodo": "Rosca 3/4 pulgada",
+          "herramientas": ["Destornillador Torx", "Multímetro", "Llave Allen"]
+        },
+        "error_codes": [
+          {"code": "E0", "desc": "Error de comunicación", "sol": "Reset del sistema (desenchufar 5 min)"},
+          {"code": "E1", "desc": "Resistencia abierta", "sol": "Verificar continuidad, reemplazar si es necesario"}
+        ],
+        "maintenance": {
+          "anodo": "Anualmente",
+          "limpieza": "Cada 18 meses",
+          "valvula": "Semestralmente"
+        },
+        "video_keywords": "calefon peabody pe-sb50 reparacion"
+      }
+    ]
+  },
+  {
+    "brand": "Bosch",
+    "models": [
+      {
+        "id": "tronic-3000",
+        "name": "Tronic 3000",
+        "description": "Termotanque de alta eficiencia con tecnología alemana",
+        "specs": {
+          "resistencia": "Brida rectangular - 2000W",
+          "termostato": "Termostato de seguridad dual",
+          "anodo": "Rosca 3/4\" magnesio",
+          "herramientas": ["Llave Allen 6mm", "Destornillador Torx", "Multímetro"]
+        },
+        "error_codes": [
+          {"code": "F1", "desc": "Fallo de calentamiento", "sol": "Comprobar resistencia y cableado"},
+          {"code": "F2", "desc": "Temperatura excesiva", "sol": "Revisar termostato de seguridad"}
+        ],
+        "maintenance": {
+          "anodo": "Cada 12 meses",
+          "limpieza": "Cada 24 meses",
+          "valvula": "Cada 6 meses"
+        },
+        "video_keywords": "bosch tronic 3000 reparación"
+      }
+    ]
+  },
+  {
+    "brand": "Midea",
+    "models": [
+      {
+        "id": "smart-50",
+        "name": "Smart 50",
+        "description": "Calefón inteligente con WiFi y control por app",
+        "specs": {
+          "resistencia": "Brida 6 tornillos - 1800W",
+          "termostato": "Termostato digital WiFi",
+          "anodo": "Rosca 1/2\" titanio",
+          "herramientas": ["Destornillador Phillips", "Llave inglesa", "Smartphone"]
+        },
+        "error_codes": [
+          {"code": "E01", "desc": "Error de WiFi", "sol": "Resetear configuración de red"},
+          {"code": "E02", "desc": "Sensor defectuoso", "sol": "Reemplazar sensor de temperatura"},
+          {"code": "E03", "desc": "Sobrecarga eléctrica", "sol": "Verificar instalación eléctrica"}
+        ],
+        "maintenance": {
+          "anodo": "Cada 18 meses",
+          "limpieza": "Cada 24 meses",
+          "valvula": "Cada 6 meses"
+        },
+        "video_keywords": "midea smart reparación wifi"
+      }
+    ]
+  },
+  {
+    "brand": "Enxuta",
+    "models": [
+      {
+        "id": "maxi-80",
+        "name": "Maxi 80",
+        "description": "Termotanque familiar de gran capacidad",
+        "specs": {
+          "resistencia": "Rosca 1 1/2 - 2000W",
+          "termostato": "Varilla ajustable",
+          "anodo": "Rosca 3/4\"",
+          "herramientas": ["Llave de tubo 32mm", "Teflón", "Multímetro"]
+        },
+        "error_codes": [],
+        "maintenance": {
+          "anodo": "Cada 12 meses",
+          "limpieza": "Cada 18 meses",
+          "valvula": "Cada 6 meses"
+        },
+        "video_keywords": "enxuta maxi 80 reparación"
+      }
+    ]
+  },
+  {
+    "brand": "Punktal",
+    "models": [
+      {
+        "id": "pk-40",
+        "name": "PK-40",
+        "description": "Calefón compacto ideal para espacios reducidos",
+        "specs": {
+          "resistencia": "Rosca 1\" - 1200W",
+          "termostato": "Mecánico estándar",
+          "anodo": "Rosca 1/2\"",
+          "herramientas": ["Llave inglesa", "Destornillador", "Multímetro"]
+        },
+        "error_codes": [],
+        "maintenance": {
+          "anodo": "Cada 12 meses",
+          "limpieza": "Cada 18 meses",
+          "valvula": "Cada 6 meses"
+        },
+        "video_keywords": "punktal pk-40 reparación"
+      }
+    ]
+  },
+  {
+    "brand": "Atlantic",
+    "models": [
+      {
+        "id": "ego-100",
+        "name": "EGO 100",
+        "description": "Termotanque premium con esmalte vitrificado",
+        "specs": {
+          "resistencia": "Brida ovalada - 2400W",
+          "termostato": "Electrónico de precisión",
+          "anodo": "Ánodo de titanio permanente",
+          "herramientas": ["Llave Allen", "Destornillador", "Tester digital"]
+        },
+        "error_codes": [
+          {"code": "ER1", "desc": "Corte térmico activado", "sol": "Revisar sobrecalentamiento, resetear termostato"},
+          {"code": "ER2", "desc": "Falla eléctrica", "sol": "Verificar conexiones y continuidad"}
+        ],
+        "maintenance": {
+          "anodo": "Permanente - No requiere cambio",
+          "limpieza": "Cada 36 meses",
+          "valvula": "Cada 6 meses"
+        },
+        "video_keywords": "atlantic ego 100 reparación premium"
+      }
+    ]
+  },
+  {
+    "brand": "Ideal",
+    "models": [
+      {
+        "id": "standard-60",
+        "name": "Standard 60",
+        "description": "Modelo clásico de 60 litros",
+        "specs": {
+          "resistencia": "Rosca 1 1/4 - 1500W",
+          "termostato": "Contacto estándar",
+          "anodo": "Rosca 1/2\"",
+          "herramientas": ["Llave inglesa", "Teflón", "Multímetro"]
+        },
+        "error_codes": [],
+        "maintenance": {
+          "anodo": "Cada 12 meses",
+          "limpieza": "Cada 24 meses",
+          "valvula": "Cada 6 meses"
+        },
+        "video_keywords": "ideal standard 60 reparación"
+      }
+    ]
+  },
+  {
+    "brand": "Thermor",
+    "models": [
+      {
+        "id": "concept-n4",
+        "name": "Concept N4",
+        "description": "Termotanque inteligente con control electrónico",
+        "specs": {
+          "resistencia": "Brida 6 tornillos - 1800W",
+          "termostato": "Digital con pantalla LCD",
+          "anodo": "Rosca 3/4\" ACI híbrido",
+          "herramientas": ["Destornillador", "Llave Allen", "Multímetro digital"]
+        },
+        "error_codes": [
+          {"code": "F01", "desc": "Fallo de sonda", "sol": "Verificar cableado de sensor"},
+          {"code": "F02", "desc": "Sobrecalentamiento", "sol": "Comprobar termostato de seguridad"},
+          {"code": "F03", "desc": "Corte térmico", "sol": "Resetear botón de seguridad"}
+        ],
+        "maintenance": {
+          "anodo": "Cada 24 meses (ACI)",
+          "limpieza": "Cada 30 meses",
+          "valvula": "Cada 6 meses"
+        },
+        "video_keywords": "thermor concept n4 reparación aci"
+      }
+    ]
+  }
 ]

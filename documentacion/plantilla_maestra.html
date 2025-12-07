@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Metatags -->
-    <title>Reparación de Calefones Bronx - Guía Técnica Completa</title>
-    <meta name="description" content="Guía completa de reparación para calefones Bronx. Diagnóstico de fallas, reemplazo de resistencias, termostatos y mantenimiento preventivo.">
+    <title>{{pageTitle}}</title>
+    <meta name="description" content="{{pageDescription}}">
     <meta name="robots" content="index, follow">
     
     <!-- Open Graph / Social Media -->
-    <meta property="og:title" content="Reparación de Calefones Bronx - Guía Técnica Completa">
-    <meta property="og:description" content="Guía completa de reparación para calefones Bronx. Diagnóstico de fallas, reemplazo de resistencias, termostatos y mantenimiento preventivo.">
+    <meta property="og:title" content="{{pageTitle}}">
+    <meta property="og:description" content="{{pageDescription}}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://calefones-landing.pages.dev/bronx/">
+    <meta property="og:url" content="{{currentUrl}}">
     <meta property="og:image" content="/images/og-image.jpg">
     
     <!-- Tailwind & Fonts -->
@@ -43,8 +43,8 @@
     {
       "@context": "https://schema.org",
       "@type": "TechArticle",
-      "headline": "Reparación de Calefones Bronx - Guía Técnica Completa",
-      "description": "Guía completa de reparación para calefones Bronx. Diagnóstico de fallas, reemplazo de resistencias, termostatos y mantenimiento preventivo.",
+      "headline": "{{pageTitle}}",
+      "description": "{{pageDescription}}",
       "author": {
         "@type": "Organization",
         "name": "Service de Calefones Uruguay"
@@ -52,7 +52,7 @@
     }
     </script>
     
-    
+    {{extraHead}}
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans antialiased leading-relaxed">
     <!-- Header Global -->
@@ -65,12 +65,12 @@
             <nav class="text-sm text-blue-100 mb-8 font-medium overflow-x-auto whitespace-nowrap pb-2" aria-label="Breadcrumb">
                 <a href="/" class="hover:text-white hover:underline transition-colors">Inicio</a> 
                 <span class="mx-2 text-blue-300">&gt;</span> 
-                <a href="/bronx/" class="hover:text-white hover:underline transition-colors">Bronx</a> 
+                <a href="/{{brandSlug}}/" class="hover:text-white hover:underline transition-colors">{{brandName}}</a> 
                 <span class="mx-2 text-blue-300">&gt;</span> 
-                <span aria-current="page" class="text-white font-semibold">Inicio</span>
+                <span aria-current="page" class="text-white font-semibold">{{currentPageTitle}}</span>
             </nav>
-            <h1 class="text-4xl sm:text-5xl font-extrabold mb-4 tracking-tight leading-tight text-white drop-shadow-sm">Calefones Bronx</h1>
-            <p class="text-xl sm:text-2xl text-blue-100 max-w-3xl leading-relaxed font-light">Reparación profesional y diagnóstico técnico</p>
+            <h1 class="text-4xl sm:text-5xl font-extrabold mb-4 tracking-tight leading-tight text-white drop-shadow-sm">{{h1Title}}</h1>
+            <p class="text-xl sm:text-2xl text-blue-100 max-w-3xl leading-relaxed font-light">{{subtitle}}</p>
         </div>
     </header>
 
@@ -79,11 +79,7 @@
         <section id="intro" class="mb-12 bg-white p-8 sm:p-10 rounded-2xl shadow-lg border-2 border-gray-100 relative overflow-hidden">
             <div class="absolute top-0 left-0 w-2 h-full bg-gradient-to-b from-primary to-secondary"></div>
             <div class="pl-6 prose prose-lg max-w-none text-gray-700">
-                
-        <div class="prose prose-lg max-w-none">
-            <p class="lead">Encuentra guías técnicas especializadas para la reparación y mantenimiento de calefones eléctricos <strong>Bronx</strong>.</p>
-        </div>
-        
+                {{introContent}}
             </div>
         </section>
 
@@ -94,7 +90,7 @@
                     <i class="fas fa-th-large text-xl"></i>
                 </div>
                 <div>
-                    <h2 class="text-2xl sm:text-3xl font-bold text-gray-800">Selecciona tu Modelo de Bronx</h2>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-gray-800">Selecciona tu Modelo de {{brandName}}</h2>
                     <p class="text-gray-500">Encuentra guías específicas para tu equipo</p>
                 </div>
             </div>
@@ -114,12 +110,12 @@
                     </div>
                 </div>
                 -->
-                
+                {{modelListHtml}}
             </div>
         </section>
 
         <!-- SECCIÓN 3: Especificaciones Técnicas (Visible solo en páginas de modelo) -->
-        <section id="specs" style="display:none;" class="mb-16">
+        <section id="specs" class="mb-16">
             <div class="flex items-center mb-8">
                 <div class="bg-secondary text-white p-3 rounded-lg mr-4 shadow-sm">
                     <i class="fas fa-cogs text-xl"></i>
@@ -214,12 +210,12 @@
         </section>
 
         <!-- SECCIÓN 5: Tabla de Códigos de Error (Visible solo en páginas de modelo) -->
-        <section id="errores" style="display:none;" class="mb-16">
+        <section id="errores" class="mb-16">
             <div class="flex items-center mb-8">
                 <div class="bg-gray-700 text-white p-3 rounded-lg mr-4 shadow-sm">
                     <i class="fas fa-exclamation-triangle text-xl"></i>
                 </div>
-                <h2 class="text-2xl sm:text-3xl font-bold text-gray-800">Códigos de Error Bronx</h2>
+                <h2 class="text-2xl sm:text-3xl font-bold text-gray-800">Códigos de Error {{brandName}}</h2>
             </div>
 
             <div class="overflow-hidden rounded-xl shadow-md border border-gray-200">
@@ -291,7 +287,7 @@
         </section>
 
         <!-- SECCIÓN 7: Plan de Mantenimiento Preventivo (Visible solo en páginas de modelo) -->
-        <section id="mantenimiento" style="display:none;" class="mb-16">
+        <section id="mantenimiento" class="mb-16">
             <div class="flex items-center mb-8">
                 <div class="bg-blue-500 text-white p-3 rounded-lg mr-4 shadow-sm">
                     <i class="fas fa-calendar-alt text-xl"></i>
@@ -335,7 +331,7 @@
             
             <div class="relative z-10 max-w-3xl mx-auto">
                 <h2 class="text-3xl sm:text-4xl font-extrabold mb-6 text-white tracking-tight">¿Prefieres asistencia profesional?</h2>
-                <p class="text-gray-300 mb-10 text-xl font-light">Nuestros técnicos especializados en Bronx pueden visitarte hoy mismo para solucionar cualquier inconveniente.</p>
+                <p class="text-gray-300 mb-10 text-xl font-light">Nuestros técnicos especializados en {{brandName}} pueden visitarte hoy mismo para solucionar cualquier inconveniente.</p>
                 <a href="/contacto.html" class="inline-flex items-center justify-center w-full sm:w-auto bg-accent text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-red-600 transition-all shadow-lg hover:shadow-red-500/30 transform hover:-translate-y-1">
                     <i class="fas fa-calendar-check mr-3"></i> Agendar Visita Técnica
                 </a>
