@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang='es'>
+<head>
+<meta charset='utf-8'>
+<title>Service de Calefones Uruguay - Diagnóstico y Reparación</title>
+<meta name='description' content='Guía completa para la reparación y mantenimiento de calefones eléctricos en Uruguay. Encuentra tu marca, diagnostica fallas y aprende a repararlo.'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='/styles.css'>
+<style>
+    .hero {
+        background: var(--primary);
+        color: white;
+        padding: 4rem 1rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        border-radius: 0 0 1rem 1rem;
+    }
+    .hero h1 { margin-bottom: 1rem; font-size: 2.5rem; }
+    .hero p { font-size: 1.2rem; opacity: 0.9; max-width: 600px; margin: 0 auto; }
+    
+    .brand-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    .brand-card {
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        color: var(--text);
+        font-weight: bold;
+        transition: transform 0.2s, box-shadow 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 80px;
+    }
+    .brand-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        border-color: var(--primary);
+        color: var(--primary);
+    }
+    .popular-brands .brand-card {
+        border-color: var(--primary);
+        background: #f0f9ff;
+        font-size: 1.2rem;
+    }
+    .section-title {
+        border-bottom: 2px solid var(--primary);
+        padding-bottom: 0.5rem;
+        margin: 2rem 0 1.5rem;
+        display: inline-block;
+    }
+</style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>Reparación de Calefones Uruguay</h1>
+    <p>La base de datos más completa de manuales, códigos de error y guías de reparación para todas las marcas.</p>
+</div>
+
+<main>
+    <section>
+        <h2 class="section-title">Marcas Más Vendidas</h2>
+        <div class="brand-grid popular-brands">
+            <a href="/james/" class="brand-card">James</a>
+            <a href="/panavox/" class="brand-card">Panavox</a>
+            <a href="/bronx/" class="brand-card">Bronx</a>
+            <a href="/enxuta/" class="brand-card">Enxuta</a>
+            <a href="/kroser/" class="brand-card">Kroser</a>
+            <a href="/ariston/" class="brand-card">Ariston</a>
+            <a href="/thompson/" class="brand-card">Thompson</a>
+            <a href="/midea/" class="brand-card">Midea</a>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Todas las Marcas</h2>
+        <p>Selecciona la marca de tu calefón para ver modelos y soluciones específicas:</p>
+        <div class="brand-grid">
+            <a href="/ariston/" class="brand-card">Ariston</a><a href="/atlantic/" class="brand-card">Atlantic</a><a href="/beusa/" class="brand-card">Beusa</a><a href="/bosch/" class="brand-card">Bosch</a><a href="/brilliant/" class="brand-card">Brilliant</a><a href="/bronx/" class="brand-card">Bronx</a><a href="/collerati/" class="brand-card">Collerati</a><a href="/cyprium/" class="brand-card">Cyprium</a><a href="/delne/" class="brand-card">Delne</a><a href="/dikler/" class="brand-card">Dikler</a><a href="/eldom/" class="brand-card">Eldom</a><a href="/enxuta/" class="brand-card">Enxuta</a><a href="/fagor/" class="brand-card">Fagor</a><a href="/ganim/" class="brand-card">Ganim</a><a href="/geloso/" class="brand-card">Geloso</a><a href="/hyundai/" class="brand-card">Hyundai</a><a href="/ideal/" class="brand-card">Ideal</a><a href="/ima/" class="brand-card">Ima</a><a href="/james/" class="brand-card">James</a><a href="/joya/" class="brand-card">Joya</a><a href="/kroser/" class="brand-card">Kroser</a><a href="/midea/" class="brand-card">Midea</a><a href="/orion/" class="brand-card">Orion</a><a href="/pacific/" class="brand-card">Pacific</a><a href="/panavox/" class="brand-card">Panavox</a><a href="/peabody/" class="brand-card">Peabody</a><a href="/punktal/" class="brand-card">Punktal</a><a href="/queen/" class="brand-card">Queen</a><a href="/rotel/" class="brand-card">Rotel</a><a href="/sevan/" class="brand-card">Sevan</a><a href="/sirium/" class="brand-card">Sirium</a><a href="/smartlife/" class="brand-card">Smartlife</a><a href="/steigleder/" class="brand-card">Steigleder</a><a href="/telefunken/" class="brand-card">Telefunken</a><a href="/tem/" class="brand-card">Tem</a><a href="/thermor/" class="brand-card">Thermor</a><a href="/thompson/" class="brand-card">Thompson</a><a href="/ufesa/" class="brand-card">Ufesa</a><a href="/warners/" class="brand-card">Warners</a><a href="/wnr/" class="brand-card">Wnr</a><a href="/xion/" class="brand-card">Xion</a><a href="/zero-watt/" class="brand-card">Zero watt</a>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Guías Generales</h2>
+        <div class="grid-diagnostico">
+            <article class="card">
+                <h3>Diagnóstico Rápido</h3>
+                <p>¿No sabes qué le pasa? Empieza por aquí para identificar el síntoma.</p>
+                <!-- Enlazamos a una marca genérica o popular como ejemplo por ahora -->
+                <a href="/james/fallas/no-calienta.html" class="btn">Ver Guía de Fallas</a>
+            </article>
+            <article class="card">
+                <h3>Mantenimiento Preventivo</h3>
+                <p>Aprende cómo purgar el tanque y revisar el ánodo de magnesio.</p>
+                <a href="/james/reparaciones/mantenimiento-anodo.html" class="btn">Ver Mantenimiento</a>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Service de Calefones Uruguay. Información técnica para reparadores y usuarios.</p>
+</footer>
+
+</body>
+</html>

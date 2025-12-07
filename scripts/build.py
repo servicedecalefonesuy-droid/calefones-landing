@@ -73,6 +73,7 @@ def build_site():
             
             # Reemplazos
             output = tpl_content.replace('{{brand}}', brand)
+            output = output.replace('{{brandSlug}}', slug)
             output = output.replace('{{modelListHtml}}', model_list_html)
             
             dest_path = os.path.join(brand_dir, tpl_rel_path)
@@ -82,6 +83,7 @@ def build_site():
         if brand_data and brand_data.get('models'):
             for m in brand_data['models']:
                 m_content = model_template.replace('{{brand}}', brand)
+                m_content = m_content.replace('{{brandSlug}}', slug)
                 m_content = m_content.replace('{{modelName}}', m['name'])
                 m_content = m_content.replace('{{modelDesc}}', m['description'])
                 
@@ -113,6 +115,21 @@ def build_site():
 
                 dest_path = os.path.join(brand_dir, 'modelos', f"{m['id']}.html")
                 write_file(dest_path, m_content)
+
+    # 3. Generar Home Page (index.html raíz)
+    print("Generando Home Page...")
+    home_template = read_template('home.html')
+    if home_template:
+        all_brands_html = ""
+        # Ordenar marcas alfabéticamente
+        sorted_brands = sorted(brands_list)
+        for brand in sorted_brands:
+            # Normalizar nombre para URL (minusculas, guiones)
+            brand_slug = brand.lower().replace(' ', '-')
+            all_brands_html += f'<a href="/{brand_slug}/" class="brand-card">{brand}</a>'
+        
+        home_content = home_template.replace('{{allBrandsHtml}}', all_brands_html)
+        write_file(os.path.join(PUBLIC_DIR, 'index.html'), home_content)
 
     print("Construcción completada exitosamente.")
 
