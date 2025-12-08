@@ -5,7 +5,7 @@ from datetime import datetime
 BASE_DIR = Path(__file__).parent.parent
 PUBLIC_DIR = BASE_DIR / 'public'
 SITEMAP_FILE = PUBLIC_DIR / 'sitemap.xml'
-BASE_URL = "https://calefones-landing.pages.dev"
+BASE_URL = "https://arreglar-calefon-gratis-uruguay.pages.dev"
 
 def generate_sitemap():
     """Genera sitemap.xml con todas las URLs del sitio"""
