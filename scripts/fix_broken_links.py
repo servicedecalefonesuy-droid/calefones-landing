@@ -7,12 +7,9 @@ PUBLIC_DIR = BASE_DIR / 'public'
 
 # Mapeo de enlaces incorrectos a correctos
 LINK_FIXES = {
-    './fallas/no-enciende.html': './reparaciones/diagnostico-no-enciende.html',
-    './fallas/no-calienta.html': './reparaciones/cambiar-resistencia.html',
-    './fallas/pierde-agua.html': './reparaciones/reparar-fuga-agua.html',
-    '/fallas/no-enciende.html': '/reparaciones/diagnostico-no-enciende.html',
-    '/fallas/no-calienta.html': '/reparaciones/cambiar-resistencia.html',
-    '/fallas/pierde-agua.html': '/reparaciones/reparar-fuga-agua.html',
+    'href="/contacto.html"': 'href="https://casadelcalefon.uy/contacto"',
+    'href="/privacidad.html"': 'href="https://casadelcalefon.uy/privacidad"',
+    'href="/terminos.html"': 'href="https://casadelcalefon.uy/terminos"',
 }
 
 def fix_links_in_file(file_path):
